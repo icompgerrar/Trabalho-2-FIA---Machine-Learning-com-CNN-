@@ -1,5 +1,4 @@
 # Trabalho-2-FIA---Machine-Learning-com-CNN-
-## ♻️ Projeto 2 — Reconhecimento Automatizado de Resíduos
 # 🌍 Visão Geral
 
 Este projeto explora uma aplicação prática de Inteligência Artificial voltada para a área ambiental. Com o aumento do volume de resíduos e a necessidade urgente de melhorar os processos de reciclagem, sistemas automáticos de identificação de lixo tornam-se aliados importantes para a sustentabilidade.
