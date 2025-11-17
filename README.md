@@ -27,24 +27,24 @@ O classificador trabalha com seis grupos distintos de resíduos, todos identific
 
 # O Dataset: TrashNet
 O projeto utiliza o dataset TrashNet, disponível no Kaggle.
-● Fonte: Kaggle - Garbage Classification
-● Conteúdo: 2.527 imagens (redimensionadas para 512x384 pixels).
-● Classes: 6 pastas, cada uma representando uma classe de lixo.
-● O Desafio: O dataset é considerado pequeno e desbalanceado. A classe trash, por exemplo,
+- Fonte: Kaggle - Garbage Classification
+- Conteúdo: 2.527 imagens (redimensionadas para 512x384 pixels).
+- Classes: 6 pastas, cada uma representando uma classe de lixo.
+- O Desafio: O dataset é considerado pequeno e desbalanceado. A classe trash, por exemplo,
 possui apenas 137 imagens. Isso torna o overfitting (quando o modelo "decora" os dados de
 treino) o principal desafio a ser superado.
 Ferramentas e Metodologia
 Para desenvolver este classificador, foram utilizadas as seguintes ferramentas e técnicas:
-● Linguagem: Python 3.10
-● Ambiente: Conda (ambiente tf-final com suporte a GPU)
-● Bibliotecas Principais: TensorFlow (Keras), Scikit-learn, Pandas, Matplotlib, Seaborn.
-● Modelo: Uma Rede Neural Convolucional (CNN) padrão, seguindo o que foi solicitado:
-○ 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
-○ 1 Classificador Flatten -> Dense -> Dropout -> Dense.
-● Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
+- Linguagem: Python 3.10
+- Ambiente: Conda (ambiente tf-final com suporte a GPU)
+- Bibliotecas Principais: TensorFlow (Keras), Scikit-learn, Pandas, Matplotlib, Seaborn.
+- Modelo: Uma Rede Neural Convolucional (CNN) padrão, seguindo o que foi solicitado:
+-- 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
+-- 1 Classificador Flatten -> Dense -> Dropout -> Dense.
+- Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
 Data Augmentation agressivo no gerador de dados de treino (ImageDataGenerator). Isto cria
 novas imagens "falsas" em tempo real para o modelo treinar, aumentando a variabilidade:
-○ rescale=1./255
+-- rescale=1./255
 ○ validation_split=0.15
 ○ horizontal_flip=True
 ○ vertical_flip=True
