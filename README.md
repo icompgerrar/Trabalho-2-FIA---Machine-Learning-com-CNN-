@@ -48,17 +48,20 @@ No entanto, o desempenho foi baixo para classes como plastic (26%) e trash (26%)
 O gráfico de acurácia (do Bloco 10) mostrou um claro "gap" de overfitting, provando que, embora o data augmentation tenha sido crucial para ajudar o modelo a generalizar (evitando um colapso total), ele não foi suficiente para superar os desafios de um dataset pequeno e complexo.
 
 # Como Executar o Projeto
-
+Clone este repositório:
 ```
 git clone https://github.com/icompgerrar/Trabalho-2-FIA---Machine-Learning-com-CNN-.git
 cd Trabalho-2-FIA---Machine-Learning-com-CNN-
 ```
-# Instale as dependências necessárias
+ Instale as dependências necessárias
 ```
 pip install matplotlib pandas seaborn jupyterlab ipykernel scikit-learn
 ```
-# Execute o Jupyter Lab
+# Execute o jupyter lab
+```
 jupyter lab
+```
+Abra o arquivo .ipynb e execute as células. (Lembre-se de ajustar o data_path no Bloco 2 para o local onde você baixou o dataset).
 
 
 
