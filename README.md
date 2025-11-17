@@ -1,11 +1,11 @@
 # Trabalho-2-FIA---Machine-Learning-com-CNN-
 Discentes:
 
-Micael Gerrar
-Franscico Brilhante
-Tharcio Assunção 
-Davi Emanuel
-Hanna Mesquita
+- Micael Gerrar
+- Franscico Brilhante
+- Tharcio Assunção 
+- Davi Emanuel
+- Hanna Mesquita
 
 # 🌍 Visão Geral
 
