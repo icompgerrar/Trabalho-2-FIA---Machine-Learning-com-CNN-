@@ -57,7 +57,7 @@ cd Trabalho-2-FIA---Machine-Learning-com-CNN-
 ```
 pip install matplotlib pandas seaborn jupyterlab ipykernel scikit-learn
 ```
-# Execute o jupyter lab
+Execute o jupyter lab
 ```
 jupyter lab
 ```
