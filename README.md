@@ -49,13 +49,14 @@ O gráfico de acurácia (do Bloco 10) mostrou um claro "gap" de overfitting, pro
 
 # Como Executar o Projeto
 
-# Clone este repositório
+```
 git clone https://github.com/icompgerrar/Trabalho-2-FIA---Machine-Learning-com-CNN-.git
 cd Trabalho-2-FIA---Machine-Learning-com-CNN-
-
+```
 # Instale as dependências necessárias
+```
 pip install matplotlib pandas seaborn jupyterlab ipykernel scikit-learn
-
+```
 # Execute o Jupyter Lab
 jupyter lab
 
