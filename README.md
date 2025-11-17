@@ -7,7 +7,7 @@ Discentes:
 - Davi Emanuel
 - Hanna Mesquita
 
-Email:
+Emails:
 - micael.gerrar@icomp.ufam.edu.br
 - fransciscobraga99@gmail.com
 - tharcio.assuncao@icomp.ufam.edu.br
