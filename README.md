@@ -95,7 +95,9 @@ jupyter lab
 Abra o arquivo .ipynb e execute as células. (Lembre-se de ajustar o data_path no Bloco 2 para o local onde você baixou o dataset).
 
 
+
 # Conclusão
+
 - Impacto do Data Augmentation: O data augmentation foi crucial. Sem ele, o overfitting teria
 sido muito mais severo e rápido. Ele foi essencial para permitir que o modelo aprendesse
 classes fáceis (como paper), mas não foi suficiente para resolver dois problemas centrais: (1)
