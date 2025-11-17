@@ -6,15 +6,15 @@ Este projeto explora uma aplicação prática de Inteligência Artificial voltad
 
 A proposta consiste em criar um modelo de classificação de imagens capaz de distinguir diferentes tipos de materiais descartados, contribuindo para a otimização da triagem em centros de reciclagem.
 
-# 🗂️ Categorias de Materiais
+🗂️ Categorias de Materiais
 
 O classificador trabalha com seis grupos distintos de resíduos, todos identificados a partir de imagens no formato 224×224×3:
--🧴 Plástico
--🧻 Papel
--📦 Papelão
+- 🧴 Plástico
+- 🧻 Papel
+- 📦 Papelão
 - 🍾 Vidro
--🥫 Metal
--🗑️ Rejeito / Lixo comum
+- 🥫 Metal
+- 🗑️ Rejeito / Lixo comum
 
 # 🔍 Motivação e Objetivos
 
