@@ -90,22 +90,6 @@ este dataset específico é um desafio significativo para uma arquitetura CNN si
 destacando a necessidade de mais dados ou técnicas mais avançadas (como Transfer
 Learning) para melhorias futuras
 
-# Como Executar o Projeto
-Clone este repositório:
-```
-git clone https://github.com/icompgerrar/Trabalho-2-FIA---Machine-Learning-com-CNN-.git
-cd Trabalho-2-FIA---Machine-Learning-com-CNN-
-```
- Instale as dependências necessárias
-```
-pip install matplotlib pandas seaborn jupyterlab ipykernel scikit-learn
-```
-Execute o jupyter lab
-```
-jupyter lab
-```
-Abra o arquivo .ipynb e execute as células. (Lembre-se de ajustar o data_path no Bloco 2 para o local onde você baixou o dataset).
-
 
 
 
