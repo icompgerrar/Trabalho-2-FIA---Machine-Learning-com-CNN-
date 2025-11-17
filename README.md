@@ -78,6 +78,18 @@ No entanto, o desempenho foi baixo para classes como plastic (26%) e trash (26%)
 
 O gráfico de acurácia (do Bloco 10) mostrou um claro "gap" de overfitting, provando que, embora o data augmentation tenha sido crucial para ajudar o modelo a generalizar (evitando um colapso total), ele não foi suficiente para superar os desafios de um dataset pequeno e complexo.
 
+# Conclusão
+
+- Impacto do Data Augmentation: O data augmentation foi crucial. Sem ele, o overfitting teria
+sido muito mais severo e rápido. Ele foi essencial para permitir que o modelo aprendesse
+classes fáceis (como paper), mas não foi suficiente para resolver dois problemas centrais: (1)
+o desbalanceamento extremo da classe trash e (2) a alta similaridade visual entre plásticos
+transparentes, vidro e papel amassado.
+- Resultado Final: A acurácia de ~57% não é um "fracasso" do modelo, mas sim a prova de que
+este dataset específico é um desafio significativo para uma arquitetura CNN simples,
+destacando a necessidade de mais dados ou técnicas mais avançadas (como Transfer
+Learning) para melhorias futuras
+
 # Como Executar o Projeto
 Clone este repositório:
 ```
@@ -96,17 +108,7 @@ Abra o arquivo .ipynb e execute as células. (Lembre-se de ajustar o data_path n
 
 
 
-# Conclusão
 
-- Impacto do Data Augmentation: O data augmentation foi crucial. Sem ele, o overfitting teria
-sido muito mais severo e rápido. Ele foi essencial para permitir que o modelo aprendesse
-classes fáceis (como paper), mas não foi suficiente para resolver dois problemas centrais: (1)
-o desbalanceamento extremo da classe trash e (2) a alta similaridade visual entre plásticos
-transparentes, vidro e papel amassado.
-- Resultado Final: A acurácia de ~57% não é um "fracasso" do modelo, mas sim a prova de que
-este dataset específico é um desafio significativo para uma arquitetura CNN simples,
-destacando a necessidade de mais dados ou técnicas mais avançadas (como Transfer
-Learning) para melhorias futuras
 
 
 
