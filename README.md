@@ -16,7 +16,7 @@ A proposta consiste em criar um modelo de classificação de imagens capaz de di
 🗂️ Categorias de Materiais
 
 O classificador trabalha com seis grupos distintos de resíduos, todos identificados a partir de imagens no formato 224×224×3:
-- 🧴 Plástico, 🧻 Papel, 📦 Papelão, 🍾 Vidro, 🥫 Metal, 🗑️ Rejeito / Lixo comum
+- 🧴 Plástico, 🧻 Papel, 📦 Papelão, 🍾 Vidro,  🥫 Metal,  🗑️ Rejeito/Lixo comum
 
 # 🔍 Motivação e Objetivos
 
