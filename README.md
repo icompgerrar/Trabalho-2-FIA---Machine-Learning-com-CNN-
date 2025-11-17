@@ -39,12 +39,12 @@ Para desenvolver este classificador, foram utilizadas as seguintes ferramentas e
 - Ambiente: Conda (ambiente tf-final com suporte a GPU)
 - Bibliotecas Principais: TensorFlow (Keras), Scikit-learn, Pandas, Matplotlib, Seaborn.
 - Modelo: Uma Rede Neural Convolucional (CNN) padrão, seguindo o que foi solicitado:
--- 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
--- 1 Classificador Flatten -> Dense -> Dropout -> Dense.
+     - 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
+     - 1 Classificador Flatten -> Dense -> Dropout -> Dense.
 - Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
 Data Augmentation agressivo no gerador de dados de treino (ImageDataGenerator). Isto cria
 novas imagens "falsas" em tempo real para o modelo treinar, aumentando a variabilidade:
--- rescale=1./255
+     - rescale=1./255
 ○ validation_split=0.15
 ○ horizontal_flip=True
 ○ vertical_flip=True
