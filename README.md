@@ -41,18 +41,18 @@ Para desenvolver este classificador, foram utilizadas as seguintes ferramentas e
 - Modelo: Uma Rede Neural Convolucional (CNN) padrão, seguindo o que foi solicitado:
      - 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
      - 1 Classificador Flatten -> Dense -> Dropout -> Dense.
-- Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
+     - Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
 Data Augmentation agressivo no gerador de dados de treino (ImageDataGenerator). Isto cria
 novas imagens "falsas" em tempo real para o modelo treinar, aumentando a variabilidade:
      - rescale=1./255
-○ validation_split=0.15
-○ horizontal_flip=True
-○ vertical_flip=True
-○ zoom_range = 0.5
-○ width_shift_range = 0.3
-○ height_shift_range = 0.3
-○ rotation_range=50
-● Estratégia de Treino: O modelo foi treinado usando o callback EarlyStopping, que monitora a
+     - validation_split=0.15
+     - horizontal_flip=True
+     - vertical_flip=True
+     - zoom_range = 0.5
+     - width_shift_range = 0.3
+     - height_shift_range = 0.3
+     - rotation_range=50
+- Estratégia de Treino: O modelo foi treinado usando o callback EarlyStopping, que monitora a
 val_loss (perda na validação) e encerra o treino automaticamente se o modelo parar de
 aprender. O treino foi interrompido após 52 épocas.
 
