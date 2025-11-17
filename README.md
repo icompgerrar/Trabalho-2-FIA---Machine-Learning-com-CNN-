@@ -41,7 +41,7 @@ Para desenvolver este classificador, foram utilizadas as seguintes ferramentas e
 - Modelo: Uma Rede Neural Convolucional (CNN) padrão, seguindo o que foi solicitado:
      - 3 Blocos de Conv2D -> ReLU -> Dropout -> MaxPooling2D.
      - 1 Classificador Flatten -> Dense -> Dropout -> Dense.
-     - Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
+- Técnica Chave (Combate ao Overfitting): Para lidar com o dataset pequeno, foi aplicado um
 Data Augmentation agressivo no gerador de dados de treino (ImageDataGenerator). Isto cria
 novas imagens "falsas" em tempo real para o modelo treinar, aumentando a variabilidade:
      - rescale=1./255
